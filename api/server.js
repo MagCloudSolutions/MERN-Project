@@ -11,7 +11,6 @@ mongoose.connect('mongodb+srv://todolist:Tejasvt1@@atlascluster.fxwchpq.mongodb.
 	useNewUrlParser: true, 
 	useUnifiedTopology: true 
 }).then(() => console.log("Connected to MongoDB")).catch(console.error);
-
 // Models
 const Todo = require('./models/Todo');
 
